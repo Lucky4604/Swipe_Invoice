@@ -1,0 +1,20 @@
+/* Animation for the cards */
+.nav-card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Scale up on hover */
+.nav-card:hover {
+    transform: scale(1.1); /* Slight scaling effect */
+    background-color: #007bff !important; /* Blue color on hover */
+}
+
+/* Smooth color transition for the active card */
+.nav-card.bg-primary {
+    transition: background-color 0.3s ease;
+}
+
+/* Add a subtle shadow when hovered */
+.nav-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds a smooth shadow effect */
+}
