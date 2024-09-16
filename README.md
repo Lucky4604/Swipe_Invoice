@@ -42,14 +42,7 @@ This application is designed to manage invoices and associated products efficien
    npm install
    ```
 
-4. **Configure Environment Variables**:
-   - Create a `.env` file in the root directory.
-   - Add your API keys and other configuration settings:
-     ```
-     REACT_APP_CURRENCY_API_KEY=your_api_key_here
-     ```
-
-5. **Run the Application**:
+4. **Run the Application**:
    ```bash
    npm start
    ```
